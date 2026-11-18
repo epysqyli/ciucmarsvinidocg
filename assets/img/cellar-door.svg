@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" role="img" aria-label="La porta della cantina">
+  <defs>
+    <linearGradient id="facade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3c99b"/>
+      <stop offset="1" stop-color="#d3b183"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#facade)"/>
+  <g fill="#cbb083" opacity=".7">
+    <ellipse cx="220" cy="150" rx="70" ry="34"/>
+    <ellipse cx="330" cy="230" rx="52" ry="26"/>
+    <ellipse cx="1380" cy="170" rx="66" ry="32"/>
+    <ellipse cx="1270" cy="250" rx="48" ry="24"/>
+    <ellipse cx="180" cy="420" rx="58" ry="28"/>
+    <ellipse cx="1430" cy="430" rx="60" ry="28"/>
+  </g>
+  <path d="M600 700 V360 a200 200 0 0 1 400 0 V700 Z" fill="#241a11"/>
+  <path d="M600 700 V360 a200 200 0 0 1 400 0 V700" fill="none" stroke="#b3906a" stroke-width="26"/>
+  <path d="M648 700 V330 a152 152 0 0 1 304 0 V700 Z" fill="#7a5a34"/>
+  <path d="M724 700 V300 M800 700 V290 M876 700 V300" stroke="#5d4326" stroke-width="10"/>
+  <rect x="648" y="500" width="304" height="26" fill="#5d4326"/>
+  <circle cx="906" cy="570" r="10" fill="#c9a06b"/>
+  <g stroke="#6f7a3c" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M420 660 q-20 -90 30 -150 M450 645 q-10 -70 30 -110 M392 640 q-30 -60 -10 -120"/>
+  </g>
+  <g fill="#79833f">
+    <ellipse cx="452" cy="498" rx="26" ry="11" transform="rotate(-35 452 498)"/>
+    <ellipse cx="482" cy="532" rx="24" ry="10" transform="rotate(-20 482 532)"/>
+    <ellipse cx="378" cy="516" rx="24" ry="10" transform="rotate(25 378 516)"/>
+    <ellipse cx="352" cy="560" rx="22" ry="9" transform="rotate(45 352 560)"/>
+    <ellipse cx="466" cy="580" rx="23" ry="10" transform="rotate(10 466 580)"/>
+  </g>
+  <rect x="0" y="660" width="1600" height="40" fill="#c9a06b"/>
+  <path d="M0 660 h1600" stroke="#a8834f" stroke-width="6"/>
+</svg>

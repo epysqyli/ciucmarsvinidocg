@@ -1,0 +1,68 @@
+# UI strings + wine list — English
+# Edit this to update the menu, labels and wines (Italian counterpart is in it.yml)
+
+ui:
+  skip_to_content: "Skip to content"
+  menu: "Open menu"
+  main_nav: "Main navigation"
+  language: "Language"
+  coming_soon: "Coming soon"
+  pairing: "Pairs with"
+  footer_tagline: "Langhe wines from Monforte d'Alba."
+  footer_contact: "Contact"
+  footer_explore: "Explore"
+  responsible: "Our wines are intended for adults of legal drinking age. Drink responsibly."
+
+nav:
+  home:
+    label: "Home"
+    url: "/en/"
+  story:
+    label: "The winery"
+    url: "/en/story/"
+  wines:
+    label: "The wines"
+    url: "/en/wines/"
+  vineyards:
+    label: "The vineyards"
+    url: "/en/vineyards/"
+  contact:
+    label: "Contact"
+    url: "/en/contact/"
+
+wines:
+  - name: "Barbera d'Alba"
+    designation: "DOC"
+    year: "2023"
+    grapes: "Barbera 100%"
+    image: "wine-barbera.svg"
+    description: "Bright and honest: red fruit, freshness and a savoury finish that calls for the table. The everyday wine, no compromises."
+    pairing: "Tajarin pasta, agnolotti, medium-aged cheeses"
+    coming: false
+
+  - name: "Dolcetto d'Alba"
+    designation: "DOC"
+    year: "2023"
+    grapes: "Dolcetto 100%"
+    image: "wine-dolcetto.svg"
+    description: "Piedmont at its most immediate: violet, dark fruit, gentle tannins. Made to be drunk young, in good company."
+    pairing: "Cured meats, aperitivo, everyday cooking"
+    coming: false
+
+  - name: "Langhe Nebbiolo"
+    designation: "DOC"
+    year: "2022"
+    grapes: "Nebbiolo 100%"
+    image: "wine-nebbiolo.svg"
+    description: "Our youngest Nebbiolo: dried roses, red fruit, a tannin that promises. The antechamber of Barolo."
+    pairing: "White meats, game, truffle"
+    coming: false
+
+  - name: "Barolo"
+    designation: "DOCG"
+    year: "2021"
+    grapes: "Nebbiolo 100%"
+    image: "wine-barolo.svg"
+    description: "Our first Barolo, from the 2021 harvest. Ageing in large oak: it will be released when it is ready — spring 2027."
+    pairing: "Braised beef, game, white truffle of Alba"
+    coming: true

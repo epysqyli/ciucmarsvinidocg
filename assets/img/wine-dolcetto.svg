@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="Bottiglia di Dolcetto d'Alba">
+  <defs>
+    <linearGradient id="bg-dolcetto" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9c5560"/>
+      <stop offset="1" stop-color="#6e2f3c"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg-dolcetto)"/>
+  <rect x="0" y="675" width="600" height="125" fill="#5a2830"/>
+  <ellipse cx="300" cy="692" rx="130" ry="16" fill="#170f08" opacity=".3"/>
+  <g fill="#e7c9d0" opacity=".45">
+    <circle cx="110" cy="220" r="6"/>
+    <circle cx="490" cy="180" r="5"/>
+    <circle cx="460" cy="420" r="4"/>
+    <circle cx="80" cy="360" r="5"/>
+  </g>
+  <g fill="#3a2230" opacity=".55">
+    <circle cx="130" cy="600" r="9"/>
+    <circle cx="150" cy="585" r="9"/>
+    <circle cx="140" cy="615" r="9"/>
+    <circle cx="470" cy="590" r="9"/>
+    <circle cx="488" cy="575" r="9"/>
+  </g>
+  <path d="M285 115 h30 v160 c30 0 60 35 60 90 v310 h-150 v-310 c0 -55 30 -90 60 -90 z" fill="#33261a"/>
+  <path d="M285 115 h30 v55 h-30 z" fill="#5a2830"/>
+  <rect x="225" y="430" width="150" height="130" fill="#f1e7d2"/>
+  <rect x="233" y="438" width="134" height="114" fill="none" stroke="#c9b98f" stroke-width="2"/>
+  <rect x="296" y="150" width="8" height="470" rx="4" fill="#ffffff" opacity=".08"/>
+</svg>

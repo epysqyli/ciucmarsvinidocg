@@ -1,0 +1,73 @@
+---
+layout: default
+lang: en
+ref: home
+description: "A small family-run winery in the Langhe hills of Monforte d'Alba: Barbera, Dolcetto, Nebbiolo — and our first Barolo on the way."
+permalink: /en/
+---
+{% assign t = site.data[page.lang] %}
+
+<section class="hero">
+  <img class="hero-img" src="{{ '/assets/img/hero-home.svg' | relative_url }}" alt="The Langhe hills at sunset" width="1600" height="900" fetchpriority="high">
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <div class="hero-text">
+    <p class="hero-kicker">Langhe · Monforte d'Alba</p>
+    <h1>{{ site.title }}</h1>
+    <p class="hero-sub">Growers in the Langhe of Monforte d'Alba.<br>Small by choice, precise by passion.</p>
+    <p class="hero-cta">
+      <a class="btn btn-solid" href="{{ t.nav.wines.url | relative_url }}">Discover the wines</a>
+      <a class="btn btn-outline" href="{{ t.nav.contact.url | relative_url }}">Get in touch</a>
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap intro-grid">
+    <div class="intro-text">
+      <p class="section-label">The winery</p>
+      <h2 class="section-title">A story that goes back a long way</h2>
+      <p>We are a small family-run winery on the hills of Monforte d'Alba, where the Tanaro fog meets marl and sand. Three hectares of vineyard, tended by hand, and a single ambition: wines that tell of our corner of the Langhe.</p>
+      <p>For three generations our family has farmed these vines; since 2022 we have been steering them ourselves — new eyes, the same respect for the land.</p>
+      <p><a class="link-more" href="{{ t.nav.story.url | relative_url }}">Our story →</a></p>
+    </div>
+    <figure class="intro-media">
+      <img src="{{ '/assets/img/story.svg' | relative_url }}" alt="The winemaker among the barrels in the cellar" loading="lazy" width="1200" height="900">
+    </figure>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <p class="section-label">The wines</p>
+    <h2 class="section-title">Four wines, one territory</h2>
+    <div class="wine-grid">
+      {% for wine in t.wines %}
+      {% include wine-card.html wine=wine coming=wine.coming %}
+      {% endfor %}
+    </div>
+    <p class="section-cta"><a class="btn btn-solid" href="{{ t.nav.wines.url | relative_url }}">All the details</a></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap intro-grid reverse">
+    <figure class="intro-media">
+      <img src="{{ '/assets/img/vineyards.svg' | relative_url }}" alt="Vineyard rows on a Langhe hillside" loading="lazy" width="1200" height="900">
+    </figure>
+    <div class="intro-text">
+      <p class="section-label">The vineyards</p>
+      <h2 class="section-title">Between 380 and 480 metres</h2>
+      <p>Small parcels between Monforte d'Alba and Serralunga d'Alba, on calcareous clay marls facing south and south-west. Hand harvest, spontaneous cover crops, no herbicides.</p>
+      <p><a class="link-more" href="{{ t.nav.vineyards.url | relative_url }}">Explore the vineyards →</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="wrap contact-strip">
+    <p class="section-label">Contact</p>
+    <h2 class="section-title">A glass, a few words</h2>
+    <p>Cellar visits and tastings by appointment: write or call us, we're happy to answer (unless it's harvest time).</p>
+    <p class="section-cta"><a class="btn btn-solid" href="{{ t.nav.contact.url | relative_url }}">Get in touch</a></p>
+  </div>
+</section>

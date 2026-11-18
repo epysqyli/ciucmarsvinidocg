@@ -1,0 +1,31 @@
+# Cantina Bricco Lupo — sito statico Jekyll
+# Ospitato su GitHub Pages: https://epysqyli.github.io/ciucmarsvinidocg/
+
+title: Cantina Bricco Lupo
+description: >-
+  Piccola cantina della Langhe a Monforte d'Alba: Barbera, Dolcetto,
+  Nebbiolo e il primo Barolo in arrivo. A small winery in the Langhe
+  hills of Piedmont, Italy.
+
+# Lingue: italiano su /, inglese su /en/
+# Stringe UI e lista vini: _data/it.yml e _data/en.yml
+# Testi delle pagine: _pages/it/ e _pages/en/
+
+url: https://epysqyli.github.io
+baseurl: /ciucmarsvinidocg
+
+# Le pagine vivono in _pages/ (directory "riservata", va reinclusa)
+include:
+  - _pages
+
+plugins:
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

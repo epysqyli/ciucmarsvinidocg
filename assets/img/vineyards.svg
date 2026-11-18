@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Filari di vigneto su una collina della Langhe">
+  <defs>
+    <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0e3c2"/>
+      <stop offset=".6" stop-color="#e6d3a8"/>
+      <stop offset="1" stop-color="#dfc493"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#dawn)"/>
+  <circle cx="330" cy="300" r="70" fill="#f7e8bd" opacity=".9"/>
+  <path d="M0 430 Q 500 330 1200 420 V900 H0 Z" fill="#b3a06a" opacity=".45"/>
+  <rect x="0" y="450" width="1200" height="90" fill="#f6eed7" opacity=".5"/>
+  <path d="M0 620 Q 300 460 700 560 T 1200 545 V900 H0 Z" fill="#6f6a44"/>
+  <path d="M0 900 V760 Q 400 700 820 750 T 1200 740 V900 Z" fill="#565a33"/>
+  <g stroke="#3f4226" stroke-width="7" stroke-linecap="round" fill="none" opacity=".9">
+    <path d="M40 700 Q 340 560 720 640 T 1180 625" stroke-dasharray="4 34"/>
+    <path d="M60 740 Q 340 610 740 682 T 1190 668" stroke-dasharray="4 34"/>
+    <path d="M90 790 Q 350 670 760 735 T 1200 722" stroke-dasharray="4 34"/>
+    <path d="M120 840 Q 360 740 780 795 T 1210 782" stroke-dasharray="4 34"/>
+  </g>
+  <g fill="#a4472e" opacity=".75">
+    <circle cx="205" cy="640" r="7"/>
+    <circle cx="655" cy="648" r="7"/>
+    <circle cx="985" cy="610" r="7"/>
+  </g>
+</svg>

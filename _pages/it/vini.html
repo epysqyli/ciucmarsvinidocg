@@ -1,0 +1,22 @@
+---
+layout: default
+lang: it
+ref: wines
+title: "I vini"
+description: "Barbera d'Alba, Dolcetto d'Alba, Langhe Nebbiolo e il primo Barolo DOCG in arrivo: i vini di Cantina Bricco Lupo."
+permalink: /vini/
+---
+{% assign t = site.data[page.lang] %}
+
+{% include page-header.html image="/assets/img/bottles-row.svg" kicker="I vini" title="I vini" subtitle="Quattro etichette, un solo territorio." %}
+
+<section class="section">
+  <div class="wrap">
+    <div class="wine-grid">
+      {% for wine in t.wines %}
+      {% include wine-card.html wine=wine coming=wine.coming %}
+      {% endfor %}
+    </div>
+    <p class="wines-note">Le annate indicate sono quelle attualmente in commercio o in affinamento e possono variare in base alla disponibilità.</p>
+  </div>
+</section>

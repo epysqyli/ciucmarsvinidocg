@@ -1,0 +1,20 @@
+{% assign t = site.data[page.lang] | default: site.data.it %}
+<article class="wine-card{% if include.coming %} is-coming{% endif %}">
+  <div class="wine-card-media">
+    <img src="{{ include.wine.image | prepend: '/assets/img/' | relative_url }}"
+         alt="{{ include.wine.name }} — {{ include.wine.year }}"
+         loading="lazy" width="600" height="800">
+    {% if include.coming %}<span class="ribbon">{{ t.ui.coming_soon }}</span>{% endif %}
+  </div>
+  <div class="wine-card-body">
+    <p class="wine-designation">
+      <span class="badge {% if include.wine.designation == 'DOCG' %}badge-docg{% else %}badge-doc{% endif %}">{{ include.wine.designation }}</span>
+    </p>
+    <h3 class="wine-name">{{ include.wine.name }} <span class="wine-vintage">{{ include.wine.year }}</span></h3>
+    <p class="wine-grapes">{{ include.wine.grapes }}</p>
+    <p class="wine-desc">{{ include.wine.description }}</p>
+    {% if include.wine.pairing %}
+    <p class="wine-pairing"><strong>{{ t.ui.pairing }}:</strong> {{ include.wine.pairing }}</p>
+    {% endif %}
+  </div>
+</article>

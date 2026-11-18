@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" role="img" aria-label="Quattro bottiglie in fila su un tavolo di rovere">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8d5ae"/>
+      <stop offset="1" stop-color="#d6b98c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="700" fill="url(#wall)"/>
+  <g fill="none" stroke="#c2a271" stroke-width="10" opacity=".45">
+    <path d="M180 560 V300 a140 140 0 0 1 280 0 V560"/>
+    <path d="M1140 560 V300 a140 140 0 0 1 280 0 V560"/>
+  </g>
+  <rect x="0" y="560" width="1600" height="140" fill="#7a5a34"/>
+  <path d="M0 610 h1600 M0 660 h1600" stroke="#5d4326" stroke-width="6"/>
+  <g>
+    <ellipse cx="380" cy="565" rx="78" ry="11" fill="#170f08" opacity=".18"/>
+    <ellipse cx="680" cy="565" rx="78" ry="11" fill="#170f08" opacity=".18"/>
+    <ellipse cx="980" cy="565" rx="78" ry="11" fill="#170f08" opacity=".18"/>
+    <ellipse cx="1280" cy="565" rx="78" ry="11" fill="#170f08" opacity=".18"/>
+  </g>
+  <g transform="translate(380 180)">
+    <path d="M-13 0 h26 v130 c26 0 47 30 47 78 v172 h-146 v-172 c0 -48 21 -78 47 -78 z" fill="#2a1f15"/>
+    <path d="M-13 0 h26 v48 h-26 z" fill="#6b2130"/>
+    <rect x="-52" y="248" width="104" height="92" fill="#f1e7d2"/>
+    <rect x="-44" y="256" width="88" height="76" fill="none" stroke="#c9b98f" stroke-width="2"/>
+    <rect x="-5" y="18" width="7" height="320" rx="3" fill="#ffffff" opacity=".07"/>
+  </g>
+  <g transform="translate(680 180)">
+    <path d="M-13 0 h26 v130 c26 0 47 30 47 78 v172 h-146 v-172 c0 -48 21 -78 47 -78 z" fill="#33261a"/>
+    <path d="M-13 0 h26 v48 h-26 z" fill="#5a2830"/>
+    <rect x="-52" y="248" width="104" height="92" fill="#f1e7d2"/>
+    <rect x="-44" y="256" width="88" height="76" fill="none" stroke="#c9b98f" stroke-width="2"/>
+    <rect x="-5" y="18" width="7" height="320" rx="3" fill="#ffffff" opacity=".07"/>
+  </g>
+  <g transform="translate(980 180)">
+    <path d="M-13 0 h26 v130 c26 0 47 30 47 78 v172 h-146 v-172 c0 -48 21 -78 47 -78 z" fill="#2a1f15"/>
+    <path d="M-13 0 h26 v48 h-26 z" fill="#a4472e"/>
+    <rect x="-52" y="248" width="104" height="92" fill="#f1e7d2"/>
+    <rect x="-44" y="256" width="88" height="76" fill="none" stroke="#c9b98f" stroke-width="2"/>
+    <rect x="-5" y="18" width="7" height="320" rx="3" fill="#ffffff" opacity=".07"/>
+  </g>
+  <g transform="translate(1280 180)">
+    <path d="M-13 0 h26 v130 c26 0 47 30 47 78 v172 h-146 v-172 c0 -48 21 -78 47 -78 z" fill="#170f08"/>
+    <path d="M-13 0 h26 v48 h-26 z" fill="#b3893f"/>
+    <rect x="-52" y="248" width="104" height="92" fill="#f1e7d2"/>
+    <rect x="-44" y="256" width="88" height="76" fill="none" stroke="#c9b98f" stroke-width="2"/>
+    <rect x="-5" y="18" width="7" height="320" rx="3" fill="#ffffff" opacity=".07"/>
+  </g>
+</svg>

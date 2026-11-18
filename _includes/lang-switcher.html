@@ -1,0 +1,18 @@
+{% assign t = site.data[page.lang] | default: site.data.it %}
+{% assign other_lang = 'en' %}
+{% if page.lang == 'en' %}{% assign other_lang = 'it' %}{% endif %}
+{% assign other_t = site.data[other_lang] %}
+{% assign other_ref = other_t.nav[page.ref] %}
+{% assign other_home = '/en/' %}
+{% if other_lang == 'it' %}{% assign other_home = '/' %}{% endif %}
+<div class="lang-switcher" aria-label="{{ t.ui.language }}">
+  {%- if page.lang == 'it' -%}
+    <span aria-current="true">IT</span>
+    <span class="sep" aria-hidden="true">/</span>
+    <a href="{{ other_ref.url | default: other_home | relative_url }}" hreflang="en" lang="en">EN</a>
+  {%- else -%}
+    <a href="{{ other_ref.url | default: other_home | relative_url }}" hreflang="it" lang="it">IT</a>
+    <span class="sep" aria-hidden="true">/</span>
+    <span aria-current="true">EN</span>
+  {%- endif -%}
+</div>

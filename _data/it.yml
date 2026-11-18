@@ -1,0 +1,68 @@
+# Stringhe interfaccia + lista vini — italiano
+# Modifica qui per aggiornare menu, etichette e vini (l'equivalente inglese è in en.yml)
+
+ui:
+  skip_to_content: "Salta al contenuto"
+  menu: "Apri il menu"
+  main_nav: "Navigazione principale"
+  language: "Lingua"
+  coming_soon: "In arrivo"
+  pairing: "Abbinamento"
+  footer_tagline: "Vini della Langhe, da Monforte d'Alba."
+  footer_contact: "Contatti"
+  footer_explore: "Esplora"
+  responsible: "I nostri vini sono destinati a consumatori adulti. Bevi responsabilmente."
+
+nav:
+  home:
+    label: "Home"
+    url: "/"
+  story:
+    label: "La cantina"
+    url: "/storia/"
+  wines:
+    label: "I vini"
+    url: "/vini/"
+  vineyards:
+    label: "I vigneti"
+    url: "/vigneti/"
+  contact:
+    label: "Contatti"
+    url: "/contatti/"
+
+wines:
+  - name: "Barbera d'Alba"
+    designation: "DOC"
+    year: "2023"
+    grapes: "Barbera 100%"
+    image: "wine-barbera.svg"
+    description: "Vivace e sincera: frutto rosso, freschezza e un finale sapido che chiama la tavola. Il vino di tutti i giorni, senza compromessi."
+    pairing: "Tajarin, agnolotti, formaggi medio-stagionati"
+    coming: false
+
+  - name: "Dolcetto d'Alba"
+    designation: "DOC"
+    year: "2023"
+    grapes: "Dolcetto 100%"
+    image: "wine-dolcetto.svg"
+    description: "Il Piemonte in versione immediata: violetta, frutta nera, tannino gentile. Nato per essere bevuto giovane, in buona compagnia."
+    pairing: "Salumi, aperitivi, cucina di ogni giorno"
+    coming: false
+
+  - name: "Langhe Nebbiolo"
+    designation: "DOC"
+    year: "2022"
+    grapes: "Nebbiolo 100%"
+    image: "wine-nebbiolo.svg"
+    description: "Il nostro Nebbiolo più giovane: rose appassite, frutta rossa, un tannino che promette. L'anticamera del Barolo."
+    pairing: "Carni bianche, selvaggina, tartufo"
+    coming: false
+
+  - name: "Barolo"
+    designation: "DOCG"
+    year: "2021"
+    grapes: "Nebbiolo 100%"
+    image: "wine-barolo.svg"
+    description: "Il nostro primo Barolo, vendemmia 2021. Affina in botte grande: uscirà quando sarà pronto — primavera 2027."
+    pairing: "Brasato, selvaggina, tartufo bianco d'Alba"
+    coming: true

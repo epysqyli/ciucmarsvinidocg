@@ -1,0 +1,18 @@
+---
+layout: default
+lang: it
+title: "404"
+permalink: /404.html
+---
+{% assign t = site.data[page.lang] %}
+<section class="section notfound">
+  <div class="wrap">
+    <p class="nf-code">404</p>
+    <h1>Questa pagina non esiste (ancora).</h1>
+    <p class="nf-sub">This page doesn't exist (yet).</p>
+    <p class="nf-links">
+      <a class="btn btn-solid" href="{{ '/' | relative_url }}">Home</a>
+      <a class="btn btn-outline-dark" href="{{ '/en/' | relative_url }}">English home</a>
+    </p>
+  </div>
+</section>

@@ -1,0 +1,25 @@
+{% assign t = site.data[page.lang] | default: site.data.it %}
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ t.nav.home.url | relative_url }}">
+      <span class="brand-mark">{% include grapes.html %}</span>
+      <span class="brand-name">{{ site.title }}</span>
+    </a>
+
+    <div class="header-right">
+      <details class="nav-toggle">
+        <summary aria-label="{{ t.ui.menu }}" title="{{ t.ui.menu }}">
+          <span class="burger" aria-hidden="true"><span></span><span></span><span></span></span>
+        </summary>
+        <nav class="site-nav" aria-label="{{ t.ui.main_nav }}">
+          <a href="{{ t.nav.home.url | relative_url }}"       {% if page.ref == 'home' %}class="active" aria-current="page"{% endif %}>{{ t.nav.home.label }}</a>
+          <a href="{{ t.nav.story.url | relative_url }}"      {% if page.ref == 'story' %}class="active" aria-current="page"{% endif %}>{{ t.nav.story.label }}</a>
+          <a href="{{ t.nav.wines.url | relative_url }}"      {% if page.ref == 'wines' %}class="active" aria-current="page"{% endif %}>{{ t.nav.wines.label }}</a>
+          <a href="{{ t.nav.vineyards.url | relative_url }}"  {% if page.ref == 'vineyards' %}class="active" aria-current="page"{% endif %}>{{ t.nav.vineyards.label }}</a>
+          <a href="{{ t.nav.contact.url | relative_url }}"    {% if page.ref == 'contact' %}class="active" aria-current="page"{% endif %}>{{ t.nav.contact.label }}</a>
+        </nav>
+      </details>
+      {% include lang-switcher.html %}
+    </div>
+  </div>
+</header>

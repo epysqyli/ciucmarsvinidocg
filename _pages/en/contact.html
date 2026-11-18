@@ -1,0 +1,44 @@
+---
+layout: default
+lang: en
+ref: contact
+title: "Contact"
+description: "Contact Cantina Bricco Lupo in Monforte d'Alba: email, phone, cellar visits and tastings by appointment."
+permalink: /en/contact/
+---
+{% assign t = site.data[page.lang] %}
+{% assign c = site.data.contact %}
+
+{% include page-header.html image="/assets/img/cellar-door.svg" kicker="Contact" title="Contact" subtitle="Visits and tastings by appointment." %}
+
+<section class="section">
+  <div class="wrap contact-grid">
+    <div class="contact-info">
+      <h2 class="contact-sub">The winery</h2>
+      <address>
+        <p>{{ c.address }}<br>{{ c.locality }}</p>
+      </address>
+      <ul class="contact-list">
+        <li>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 6h18v12H3z M3 7l9 6 9-6"/></svg>
+          <a href="mailto:{{ c.email }}">{{ c.email }}</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+          <a href="tel:{{ c.phone | remove: ' ' }}">{{ c.phone }}</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 8v8 M3 21h18 M5 21l7-18 7 18 M9 12h6"/></svg>
+          <a href="{{ c.instagram }}" target="_blank" rel="noopener">{{ c.instagram_handle }}</a>
+        </li>
+      </ul>
+      <p><a class="btn btn-outline-dark" href="{{ c.map_url }}" target="_blank" rel="noopener">Open in maps</a></p>
+    </div>
+
+    <aside class="visit-note">
+      <h2>Come and visit</h2>
+      <p>The cellar can be visited by appointment, all year round: the visit lasts about an hour and a half and ends in front of a glass, with the wines of the cellar and something to eat.</p>
+      <p>Write to us to fix a day: we answer quickly — unless it's harvest time.</p>
+    </aside>
+  </div>
+</section>

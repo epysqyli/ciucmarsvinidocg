@@ -1,0 +1,39 @@
+{% assign t = site.data[page.lang] | default: site.data.it %}
+{% assign c = site.data.contact %}
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <span class="brand-mark">{% include grapes.html %}</span>
+      <p class="footer-name">{{ site.title }}</p>
+      <p class="footer-tagline">{{ t.ui.footer_tagline }}</p>
+    </div>
+
+    <div class="footer-contact">
+      <p class="footer-heading">{{ t.ui.footer_contact }}</p>
+      <address>
+        {{ c.address }}<br>
+        {{ c.locality }}
+      </address>
+      <p><a href="mailto:{{ c.email }}">{{ c.email }}</a></p>
+      <p><a href="tel:{{ c.phone | remove: ' ' }}">{{ c.phone }}</a></p>
+    </div>
+
+    <div class="footer-links">
+      <p class="footer-heading">{{ t.ui.footer_explore }}</p>
+      <ul>
+        <li><a href="{{ t.nav.home.url | relative_url }}">{{ t.nav.home.label }}</a></li>
+        <li><a href="{{ t.nav.story.url | relative_url }}">{{ t.nav.story.label }}</a></li>
+        <li><a href="{{ t.nav.wines.url | relative_url }}">{{ t.nav.wines.label }}</a></li>
+        <li><a href="{{ t.nav.vineyards.url | relative_url }}">{{ t.nav.vineyards.label }}</a></li>
+        <li><a href="{{ t.nav.contact.url | relative_url }}">{{ t.nav.contact.label }}</a></li>
+      </ul>
+      <p class="footer-heading">{{ t.ui.language }}</p>
+      <p class="footer-langs"><a href="{{ '/' | relative_url }}" lang="it">Italiano</a> · <a href="{{ '/en/' | relative_url }}" lang="en">English</a></p>
+    </div>
+  </div>
+
+  <div class="wrap footer-bottom">
+    <p>© {{ 'now' | date: '%Y' }} {{ site.title }} · Monforte d'Alba (CN), Italia</p>
+    <p>{{ t.ui.responsible }}</p>
+  </div>
+</footer>

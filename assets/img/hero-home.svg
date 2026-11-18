@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Colline della Langhe al tramonto">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2d9a6"/>
+      <stop offset=".55" stop-color="#e8b47c"/>
+      <stop offset="1" stop-color="#d99a6c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1180" cy="350" r="85" fill="#f7e3b0" opacity=".95"/>
+  <g fill="#efe6d4" opacity=".9">
+    <rect x="1030" y="508" width="48" height="26"/>
+    <path d="M1024 508 L1054 490 L1084 508 Z" fill="#8a3a24"/>
+    <rect x="1018" y="534" width="14" height="10"/>
+  </g>
+  <rect x="0" y="555" width="1600" height="70" fill="#f7ecd8" opacity=".35"/>
+  <path d="M0 560 Q 300 470 640 540 T 1600 515 V900 H0 Z" fill="#8a7a54" opacity=".5"/>
+  <path d="M0 645 Q 380 555 760 620 T 1600 605 V900 H0 Z" fill="#6f6a44" opacity=".8"/>
+  <path d="M0 730 Q 300 635 700 700 T 1600 685 V900 H0 Z" fill="#5f683a"/>
+  <path d="M0 900 V805 Q 500 742 900 790 T 1600 775 V900 Z" fill="#474a2b"/>
+  <g stroke="#3f4226" stroke-width="6" stroke-linecap="round" fill="none" opacity=".85">
+    <path d="M60 862 Q 420 792 900 842 T 1560 830" stroke-dasharray="3 30"/>
+    <path d="M30 882 Q 420 822 940 866 T 1580 856" stroke-dasharray="3 30"/>
+  </g>
+  <g stroke="#565a33" stroke-width="5" stroke-linecap="round" fill="none" opacity=".8">
+    <path d="M80 790 Q 400 722 820 770 T 1540 758" stroke-dasharray="3 28"/>
+  </g>
+</svg>

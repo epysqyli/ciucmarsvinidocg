@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="Bottiglia di Barolo">
+  <defs>
+    <linearGradient id="bg-barolo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a3826"/>
+      <stop offset="1" stop-color="#241a11"/>
+    </linearGradient>
+    <radialGradient id="glow-barolo" cx=".5" cy=".3" r=".7">
+      <stop offset="0" stop-color="#e9c27c" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#e9c27c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="800" fill="url(#bg-barolo)"/>
+  <rect width="600" height="800" fill="url(#glow-barolo)"/>
+  <rect x="0" y="675" width="600" height="125" fill="#170f08"/>
+  <ellipse cx="300" cy="692" rx="130" ry="16" fill="#000000" opacity=".4"/>
+  <path d="M285 115 h30 v160 c30 0 60 35 60 90 v310 h-150 v-310 c0 -55 30 -90 60 -90 z" fill="#170f08"/>
+  <path d="M285 115 h30 v55 h-30 z" fill="#b3893f"/>
+  <rect x="225" y="430" width="150" height="130" fill="#f1e7d2"/>
+  <rect x="233" y="438" width="134" height="114" fill="none" stroke="#c9b98f" stroke-width="2"/>
+  <rect x="296" y="150" width="8" height="470" rx="4" fill="#e9c27c" opacity=".12"/>
+</svg>
