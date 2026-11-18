@@ -54,15 +54,6 @@ wines:
     year: "2022"
     grapes: "Nebbiolo 100%"
     image: "wine-nebbiolo.svg"
-    description: "Our youngest Nebbiolo: dried roses, red fruit, a tannin that promises. The antechamber of Barolo."
+    description: "Our youngest Nebbiolo: dried roses, red fruit, a tannin that promises."
     pairing: "White meats, game, truffle"
     coming: false
-
-  - name: "Barolo"
-    designation: "DOCG"
-    year: "2021"
-    grapes: "Nebbiolo 100%"
-    image: "wine-barolo.svg"
-    description: "Our first Barolo, from the 2021 harvest. Ageing in large oak: it will be released when it is ready — spring 2027."
-    pairing: "Braised beef, game, white truffle of Alba"
-    coming: true

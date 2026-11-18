@@ -54,15 +54,6 @@ wines:
     year: "2022"
     grapes: "Nebbiolo 100%"
     image: "wine-nebbiolo.svg"
-    description: "Il nostro Nebbiolo più giovane: rose appassite, frutta rossa, un tannino che promette. L'anticamera del Barolo."
+    description: "Il nostro Nebbiolo più giovane: rose appassite, frutta rossa, un tannino che promette."
     pairing: "Carni bianche, selvaggina, tartufo"
     coming: false
-
-  - name: "Barolo"
-    designation: "DOCG"
-    year: "2021"
-    grapes: "Nebbiolo 100%"
-    image: "wine-barolo.svg"
-    description: "Il nostro primo Barolo, vendemmia 2021. Affina in botte grande: uscirà quando sarà pronto — primavera 2027."
-    pairing: "Brasato, selvaggina, tartufo bianco d'Alba"
-    coming: true

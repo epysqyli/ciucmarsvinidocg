@@ -2,7 +2,7 @@
 layout: default
 lang: en
 ref: home
-description: "A small family-run winery in the Langhe hills of Diano d'Alba: Barbera, Dolcetto, Nebbiolo — and our first Barolo on the way."
+description: "A small family-run winery in the Langhe hills of Diano d'Alba: Barbera, Dolcetto and Nebbiolo."
 permalink: /en/
 ---
 {% assign t = site.data[page.lang] %}
@@ -39,7 +39,7 @@ permalink: /en/
 <section class="section section-alt">
   <div class="wrap">
     <p class="section-label">The wines</p>
-    <h2 class="section-title">Four wines, one territory</h2>
+    <h2 class="section-title">Three wines, one territory</h2>
     <div class="wine-grid">
       {% for wine in t.wines %}
       {% include wine-card.html wine=wine coming=wine.coming %}
@@ -57,7 +57,7 @@ permalink: /en/
     <div class="intro-text">
       <p class="section-label">The vineyards</p>
       <h2 class="section-title">Between 380 and 480 metres</h2>
-      <p>Small parcels between Diano d'Alba and La Morra, on south-facing sorì and calcareous clay marls. Hand harvest, spontaneous cover crops, no herbicides.</p>
+      <p>Small parcels on the hills of Diano d'Alba, between south-facing sorì and calcareous clay marls. Hand harvest, spontaneous cover crops, no herbicides.</p>
       <p><a class="link-more" href="{{ t.nav.vineyards.url | relative_url }}">Explore the vineyards →</a></p>
     </div>
   </div>

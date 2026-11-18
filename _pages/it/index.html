@@ -2,7 +2,7 @@
 layout: default
 lang: it
 ref: home
-description: "Piccola cantina a conduzione familiare nella Langhe di Diano d'Alba: Barbera, Dolcetto, Nebbiolo e il primo Barolo in arrivo."
+description: "Piccola cantina a conduzione familiare nella Langhe di Diano d'Alba: Barbera, Dolcetto e Nebbiolo."
 permalink: /
 ---
 {% assign t = site.data[page.lang] %}
@@ -39,7 +39,7 @@ permalink: /
 <section class="section section-alt">
   <div class="wrap">
     <p class="section-label">I vini</p>
-    <h2 class="section-title">Quattro vini, un territorio</h2>
+    <h2 class="section-title">Tre vini, un territorio</h2>
     <div class="wine-grid">
       {% for wine in t.wines %}
       {% include wine-card.html wine=wine coming=wine.coming %}
@@ -57,7 +57,7 @@ permalink: /
     <div class="intro-text">
       <p class="section-label">I vigneti</p>
       <h2 class="section-title">Tra i 380 e i 480 metri</h2>
-      <p>Piccoli appezzamenti tra Diano d'Alba e La Morra, sui sorì esposti a sud e su marne calcareo-argillose. Vendemmia manuale, inerbimento spontaneo, nessun diserbo.</p>
+      <p>Piccoli appezzamenti sui colli di Diano d'Alba, tra sorì esposti a sud e marne calcareo-argillose. Vendemmia manuale, inerbimento spontaneo, nessun diserbo.</p>
       <p><a class="link-more" href="{{ t.nav.vineyards.url | relative_url }}">Scopri i vigneti →</a></p>
     </div>
   </div>
