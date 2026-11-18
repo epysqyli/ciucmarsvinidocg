@@ -8,7 +8,7 @@ ui:
   language: "Language"
   coming_soon: "Coming soon"
   pairing: "Pairs with"
-  footer_tagline: "Langhe wines from Monforte d'Alba."
+  footer_tagline: "Langhe wines from Diano d'Alba."
   footer_contact: "Contact"
   footer_explore: "Explore"
   responsible: "Our wines are intended for adults of legal drinking age. Drink responsibly."
@@ -40,12 +40,12 @@ wines:
     pairing: "Tajarin pasta, agnolotti, medium-aged cheeses"
     coming: false
 
-  - name: "Dolcetto d'Alba"
-    designation: "DOC"
+  - name: "Dolcetto di Diano d'Alba"
+    designation: "DOCG"
     year: "2023"
     grapes: "Dolcetto 100%"
     image: "wine-dolcetto.svg"
-    description: "Piedmont at its most immediate: violet, dark fruit, gentle tannins. Made to be drunk young, in good company."
+    description: "Piedmont at its most immediate, born on our sorì: violet, dark fruit, gentle tannins. A wine to drink young, in good company."
     pairing: "Cured meats, aperitivo, everyday cooking"
     coming: false
 

@@ -8,7 +8,7 @@ ui:
   language: "Lingua"
   coming_soon: "In arrivo"
   pairing: "Abbinamento"
-  footer_tagline: "Vini della Langhe, da Monforte d'Alba."
+  footer_tagline: "Vini della Langhe, da Diano d'Alba."
   footer_contact: "Contatti"
   footer_explore: "Esplora"
   responsible: "I nostri vini sono destinati a consumatori adulti. Bevi responsabilmente."
@@ -40,12 +40,12 @@ wines:
     pairing: "Tajarin, agnolotti, formaggi medio-stagionati"
     coming: false
 
-  - name: "Dolcetto d'Alba"
-    designation: "DOC"
+  - name: "Dolcetto di Diano d'Alba"
+    designation: "DOCG"
     year: "2023"
     grapes: "Dolcetto 100%"
     image: "wine-dolcetto.svg"
-    description: "Il Piemonte in versione immediata: violetta, frutta nera, tannino gentile. Nato per essere bevuto giovane, in buona compagnia."
+    description: "Il Piemonte in versione immediata, nato sui nostri sorì: violetta, frutta nera, tannino gentile. Un vino da bere giovane, in buona compagnia."
     pairing: "Salumi, aperitivi, cucina di ogni giorno"
     coming: false
 
