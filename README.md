@@ -1,4 +1,4 @@
-# Cantina Bricco Lupo — sito vetrina
+# ViniCiucMars — sito vetrina
 
 Sito statico bilingue (IT/EN) per una piccola cantina della Langhe.
 Ospitato su **GitHub Pages**: <https://epysqyli.github.io/ciucmarsvinidocg/>
