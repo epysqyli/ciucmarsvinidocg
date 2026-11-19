@@ -1,0 +1,6 @@
+---
+layout: null
+---
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" style="color:#6b2130">
+  {% include leaf-mark.html id="logo-leaf" %}
+</svg>

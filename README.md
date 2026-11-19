@@ -32,6 +32,15 @@ salvare il file in `assets/img/` e aggiornare il riferimento
 | `cellar-door.svg` | intestazione pagina contatti |
 | `wine-*.svg` | schede dei vini (home + pagina vini) |
 
+### Logo
+
+Il logo è la foglia di vite vettoriale ricavata dal disegno originale
+(`image-suggestions/logo-empty.jpeg`). La geometria vive in un solo posto,
+`_includes/leaf-mark.html`: testata e footer la includono inline, così il
+colore segue il contesto (`currentColor`), mentre `assets/favicon.svg` e
+`assets/img/logo-leaf.svg` la riusano per la favicon e per usi esterni.
+Le nervature sono ricavate con una maschera, quindi mostrano lo sfondo.
+
 ## Struttura
 
 ```
