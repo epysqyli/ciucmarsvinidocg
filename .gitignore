@@ -4,3 +4,6 @@ _site/
 vendor/
 *.gem
 .bundle/
+
+# local image suggestions — never published
+/image-suggestions/
