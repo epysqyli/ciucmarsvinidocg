@@ -57,7 +57,13 @@ L'italiano è sulla radice `/`, l'inglese sotto `/en/`.
 
 ## Anteprima locale
 
-Con Jekyll installato (o `bundle install` + `bundle exec`):
+```sh
+./serve.sh                 # → http://localhost:4000
+./serve.sh --livereload    # ricarica automatica del browser
+```
+
+Lo script trova Jekyll anche se installato come gem utente (rbenv).
+Senza lo script:
 
 ```sh
 jekyll serve --baseurl ""   # → http://localhost:4000
