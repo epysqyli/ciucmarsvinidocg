@@ -4,6 +4,8 @@ Vine leaf mark, vectorised from the original logo artwork
 out through a mask, so the mark takes the surrounding text colour and the page
 background shows through the veins. Pass a unique `id` when the mark appears
 more than once on a page: {% include leaf-mark.html id="header" %}
+`assets/img/logo-leaf.svg` is a static export of this mark (for external use
+and preview): keep the two files in sync.
 {%- endcomment -%}
 <defs>
   <mask id="leaf-{{ include.id | default: 'mark' }}" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">

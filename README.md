@@ -35,11 +35,15 @@ salvare il file in `assets/img/` e aggiornare il riferimento
 ### Logo
 
 Il logo è la foglia di vite vettoriale ricavata dal disegno originale
-(`image-suggestions/logo-empty.jpeg`). La geometria vive in un solo posto,
+(`image-suggestions/logo-empty.jpeg`). La geometria di riferimento vive in
 `_includes/leaf-mark.html`: testata e footer la includono inline, così il
-colore segue il contesto (`currentColor`), mentre `assets/favicon.svg` e
-`assets/img/logo-leaf.svg` la riusano per la favicon e per usi esterni.
-Le nervature sono ricavate con una maschera, quindi mostrano lo sfondo.
+colore segue il contesto (`currentColor`), e anche `assets/favicon.svg` la
+riusa. Le nervature sono ricavate con una maschera, quindi mostrano lo sfondo.
+
+`_includes/leaf-mark.html` viene compilato da Jekyll: da solo non è un SVG
+valido e non si può aprire in anteprima. `assets/img/logo-leaf.svg` è invece
+un SVG statico, identico graficamente, apribile direttamente (anteprima,
+programmi di grafica, ecc.). Tenere allineati i due file.
 
 ## Struttura
 
