@@ -38,8 +38,11 @@ Il logo è la foglia di vite vettoriale ricavata dal disegno originale
 (`image-suggestions/logo-empty.jpeg`). La geometria di riferimento vive in
 `_includes/leaf-mark.html`: testata e footer la includono inline, così il
 colore segue il contesto (`currentColor`), e anche `assets/favicon.svg` la
-riusa. Il segno è una sagoma piena, senza nervature interne, così resta
-leggibile anche a 30 px.
+riusa. La foglia è una sagoma piena con le nervature ricavate con una
+maschera (una nervatura principale, le primarie verso i lobi e molte
+secondarie più sottili), quindi mostrano lo sfondo e il segno resta
+leggibile anche a 30 px. Passare sempre un `id` diverso per pagina:
+`{% include leaf-mark.html id="header" %}`.
 
 `_includes/leaf-mark.html` viene compilato da Jekyll: da solo non è un SVG
 valido e non si può aprire in anteprima. `assets/img/logo-leaf.svg` è invece
