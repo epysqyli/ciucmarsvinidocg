@@ -4,17 +4,17 @@
 /* Cantina Bricco Lupo — rustic & warm */
 
 :root {
-  --cream: #f5efe3;
-  --paper: #fbf8f1;
-  --sand: #e3d8c3;
+  --cream: #f7ece5;
+  --paper: #fdf5f0;
+  --sand: #e7d2c6;
   --ink: #2e2418;
   --ink-soft: #665642;
-  --terra: #a4472e;
-  --terra-dark: #8a3a24;
+  --terra: #a83f29;
+  --terra-dark: #8c3521;
   --wine: #6b2130;
-  --olive: #5f683a;
+  --brick: #8a4a38;
   --gold: #b3893f;
-  --footer-bg: #2b2119;
+  --footer-bg: #2b1c16;
   --font-serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
   --font-sans: "Nunito Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
 }
@@ -203,7 +203,7 @@ a:focus-visible {
 .lang-switcher span[aria-current] { color: var(--wine); }
 .lang-switcher a { text-decoration: none; color: var(--ink-soft); }
 .lang-switcher a:hover { color: var(--terra); }
-.lang-switcher .sep { color: #cbbd9f; }
+.lang-switcher .sep { color: #d3b8ab; }
 
 /* Hero (home) */
 .hero {
@@ -225,7 +225,7 @@ a:focus-visible {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(30, 22, 14, .28), rgba(30, 22, 14, .46) 55%, rgba(42, 33, 24, .6));
+  background: linear-gradient(180deg, rgba(38, 19, 13, .3), rgba(38, 19, 13, .48) 55%, rgba(46, 24, 16, .62));
 }
 .hero-text {
   position: relative;
@@ -282,7 +282,7 @@ a:focus-visible {
 /* Sections */
 .section { padding-block: clamp(3.5rem, 9vw, 5.5rem); }
 .section-alt { background: var(--paper); border-block: 1px solid var(--sand); }
-.section-tint { background: #eae2cb; border-block: 1px solid var(--sand); }
+.section-tint { background: #efe0d5; border-block: 1px solid var(--sand); }
 
 .section-label {
   display: flex;
@@ -292,14 +292,14 @@ a:focus-visible {
   font-weight: 700;
   letter-spacing: .18em;
   text-transform: uppercase;
-  color: var(--olive);
+  color: var(--brick);
   margin-bottom: .9rem;
 }
 .section-label::before {
   content: "";
   width: 2rem;
   height: 1px;
-  background: var(--olive);
+  background: var(--brick);
   opacity: .7;
 }
 .section-label.light { color: #e6dcc2; }
@@ -385,7 +385,7 @@ a:focus-visible {
   border-radius: 2px;
 }
 .badge-docg { background: #e9d9ae; color: #6d5116; }
-.badge-doc  { background: #e7e9d6; color: #4a5227; }
+.badge-doc  { background: #f0ddd3; color: #7a4430; }
 .wine-name { font-size: 1.5rem; margin: .5rem 0 .1rem; }
 .wine-vintage {
   font-size: 1.05rem;
@@ -397,7 +397,7 @@ a:focus-visible {
   font-size: .8rem;
   text-transform: uppercase;
   letter-spacing: .1em;
-  color: var(--olive);
+  color: var(--brick);
   font-weight: 700;
   margin-bottom: .7rem;
 }
@@ -443,7 +443,7 @@ a:focus-visible {
 .page-hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(32, 24, 15, .2), rgba(32, 24, 15, .55) 75%, rgba(32, 24, 15, .68));
+  background: linear-gradient(180deg, rgba(38, 20, 14, .22), rgba(38, 20, 14, .56) 75%, rgba(38, 20, 14, .68));
 }
 .page-hero-text { position: relative; padding-block: 2.4rem; width: 100%; }
 .page-hero h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); margin: .2rem 0 .3rem; }
@@ -527,7 +527,7 @@ address { font-style: normal; }
 .visit-note {
   background: var(--paper);
   border: 1px solid var(--sand);
-  border-left: 4px solid var(--olive);
+  border-left: 4px solid var(--brick);
   border-radius: 6px;
   padding: 1.8rem;
   align-self: start;
@@ -570,18 +570,18 @@ address { font-style: normal; }
   font-weight: 700;
   margin: .6rem 0 .2rem;
 }
-.footer-tagline { color: #bdb19a; font-size: .95rem; margin: 0; }
+.footer-tagline { color: #c4b2a6; font-size: .95rem; margin: 0; }
 .footer-heading {
   font-size: .75rem;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: .14em;
-  color: #c9a06b;
+  color: #cf9a72;
   margin: 0 0 .8rem;
 }
-.site-footer address, .site-footer p { color: #d6ccba; font-size: .95rem; }
-.site-footer a { color: #e8ddc6; text-decoration: none; }
-.site-footer a:hover { color: #d99a6c; text-decoration: underline; }
+.site-footer address, .site-footer p { color: #dccfc7; font-size: .95rem; }
+.site-footer a { color: #eaddd3; text-decoration: none; }
+.site-footer a:hover { color: #dda07a; text-decoration: underline; }
 .footer-links ul {
   list-style: none;
   margin: 0 0 1.6rem;
@@ -596,10 +596,10 @@ address { font-style: normal; }
   flex-wrap: wrap;
   gap: .6rem 1.5rem;
   justify-content: space-between;
-  border-top: 1px solid #453728;
+  border-top: 1px solid #4a342c;
   padding-block: 1.4rem;
 }
-.footer-bottom p { margin: 0; font-size: .82rem; color: #a99e88; }
+.footer-bottom p { margin: 0; font-size: .82rem; color: #b0a196; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
