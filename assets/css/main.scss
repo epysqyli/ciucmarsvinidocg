@@ -120,7 +120,9 @@ a:focus-visible {
 .nav-toggle summary {
   list-style: none;
   cursor: pointer;
-  display: inline-flex;
+  /* block-level: avoids the text line box that added half-leading above
+     the button and pushed it ~3.6px below the header's vertical center */
+  display: flex;
   align-items: center;
   padding: .55rem .65rem;
   border: 1px solid var(--sand);
