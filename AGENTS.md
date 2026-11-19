@@ -10,6 +10,14 @@ Rules that apply to any agent working in this repository.
   user explicitly asks for it in the current message.
 - Committing locally and switching/creating branches locally is always allowed.
 
+## Commit messages
+
+- **Always write commit messages in English**, regardless of the language of
+  the conversation or the site content.
+- **Format: `topic: description`** — a short lowercase topic, a colon, then a
+  concise description in the imperative mood (e.g.
+  `css: center mobile menu button vertically`).
+
 ## Content — the only place is Diano d'Alba
 
 - **Diano d'Alba must remain the only location mentioned anywhere on the
